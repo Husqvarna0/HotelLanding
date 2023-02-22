@@ -1,16 +1,84 @@
 <!DOCTYPE html>
 <html lang="ru">
-	@@include('html/_head.htm',{
-	"title":"Главная"
-	})
-	<body>
-		<div class="wrapper">
-			@@include('html/_header.htm',{})
-			<main class="page">
-			</main>
-			@@include('html/_footer.htm',{})
-		</div>
-		@@include('html/_popup.htm',{})
-		@@include('html/_js.htm',{})
-	</body>
+@@include('html/_head.htm',{
+"title":"Главная"
+})
+
+<body>
+	<div class="wrapper">
+		@@include('html/_header.htm',{})
+		<main class="page">
+			<section class="page__main-block main-block">
+				<div class="main-block__container">
+					<div class="main-block__title">Open the door for a
+						spacious living -</div>
+					<ul class="main-block__list">
+						<li class="main-block__item">
+							<a href="" class="main-block__link">Book a hotel service<div class="main-block__icon">
+									<img src="img/main-block/main-block-icon-arrow.svg" alt="">
+								</div></a>
+						</li>
+						<li class="main-block__item">
+							<a href="" class="main-block__link">Book a hotel service<div class="main-block__icon">
+									<img src="img/main-block/main-block-icon-arrow.svg" alt="">
+								</div></a>
+						</li>
+						<li class="main-block__item">
+							<a href="" class="main-block__link">Book a hotel service<div class="main-block__icon">
+								<img src="img/main-block/main-block-icon-arrow.svg" alt="">
+							</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="main-block__image"><img src="img/main-block/main-block-image.jpg" alt="hotel hall"></div>
+			</section>
+			<div class="page__services services">
+				<div class="services__container">
+					<div class="services__body">
+						<div class="services__item">
+							<div class="services__icon"><img src="img/services/services-1.svg" alt="Drinks"></div>
+							<div class="services__label">Welcome Drinks</div>
+						</div>
+						<div class="services__item">
+							<div class="services__icon"><img src="img/services/services-2.svg" alt="Car"></div>
+							<div class="services__label">Car
+								Rental</div>
+						</div>
+						<div class="services__item">
+							<div class="services__icon"><img src="img/services/services-3.svg" alt="Resort"></div>
+							<div class="services__label">Resort & Spa</div>
+						</div>
+						<div class="services__item">
+							<div class="services__icon"><img src="img/services/services-4.svg" alt="WIFI"></div>
+							<div class="services__label">Free 
+								WIFI</div>
+						</div>
+					</div>
+				
+					
+				</div>
+			</div>
+			<section class="page__description description">
+				<div class="description__container"></div>
+				<div class="description__header">
+					<div class="description__title"></div>
+					<div class="description__sub-title"></div>
+				</div>
+				<div class="description__body">
+					<div class="description__column column-description">
+						<div class="column-description__number"></div>
+						<div class="column-description__label"></div>
+						<div class="column-description__text"></div>
+					</div>
+					<div class="description__content"></div>
+				</div>
+			</section>
+		</main>
+		@@include('html/_footer.htm',{})
+	</div>
+	@@include('html/_popup.htm',{})
+	@@include('html/_js.htm',{})
+</body>
+
 </html>
