@@ -107,3 +107,12 @@
 
 .block-3 {
 }
+
+.input-form-subscribe-error{
+	&::placeholder{
+		font-weight: 500;
+		opacity: 1;
+		color: red;
+		
+	}
+}

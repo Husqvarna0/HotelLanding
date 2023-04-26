@@ -3,9 +3,9 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	width: 100%;
-	
+	width: 100%;	
 	padding: rem(56) rem(0);
+
 	&__container {
 			display: flex;		
 			justify-content: space-between;
@@ -44,7 +44,7 @@
 			height: 100%;
 			transition: all 0.3s ease 0s;
 			overflow: auto;
-			background-color: #000; 
+			background-color: #fff; 
 			padding: rem(70) rem(15) rem(30) rem(15);
 
 		  &::before{
