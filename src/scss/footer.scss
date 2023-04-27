@@ -58,7 +58,17 @@
 		justify-content: flex-end;
 	}
 
-	&__icon {}
+	&__icon {
+		font-weight: 400;
+		@include adaptiveValue("font-size", 24, 16);
+		color: #FFFFFF;
+		transition: color 0.3s ease 0s;
+		@media (any-hover: hover){
+			&:hover{
+				color: $orangeColor;
+			}
+		}
+	}
 }
 
 .column-left {
